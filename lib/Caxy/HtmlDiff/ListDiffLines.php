@@ -29,7 +29,7 @@ class ListDiffLines extends AbstractDiff
      * @var array
      */
     protected static $listContentTags = [
-        'h1', 'h2', 'h3', 'h4', 'h5', 'pre', 'div', 'br', 'hr', 'code',
+        'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'pre', 'div', 'br', 'hr', 'code',
         'input', 'form', 'img', 'span', 'a', 'i', 'b', 'strong', 'em',
         'font', 'big', 'del', 'tt', 'sub', 'sup', 'strike',
     ];
